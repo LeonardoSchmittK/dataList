@@ -20,7 +20,7 @@
   <body>
     <div class="container">
       <h1 class="title">Survey...</h1>
-      <form action="./test.html" class="panel">
+      <form class="panel" onsubmit="confirm(`${userValue.value}`)">
         <label for="frameworks">Which framework do you like the most:</label>
         <input
           onchange=""
@@ -37,7 +37,7 @@
           <option value="Ember"></option>
         </datalist>
         <p class="frameworkIcon"><i></i></p>
-        <button type="submit" disabled  class="confirmBtn">Done</button>
+        <button type="submit" disabled class="confirmBtn">Done</button>
       </form>
     </div>
 
