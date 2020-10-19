@@ -20,7 +20,7 @@
   <body>
     <div class="container">
       <h1 class="title">Survey...</h1>
-      <form class="panel" onsubmit='window.confirm(`${userValue.value}`)'>
+      <form action="./test.html" class="panel">
         <label for="frameworks">Which framework do you like the most:</label>
         <input
           onchange=""
@@ -31,10 +31,10 @@
           required
         />
         <datalist id="frameworks">
-          <option value="Vuejs">#1</option>
-          <option value="Angular">Angular</option>
-          <option value="React">React</option>
-          <option value="Ember">Ember</option>
+          <option value="Vuejs">vuejs</option>
+          <option value="Angular"></option>
+          <option value="React"></option>
+          <option value="Ember"></option>
         </datalist>
         <p class="frameworkIcon"><i></i></p>
         <button type="submit" disabled  class="confirmBtn">Done</button>
